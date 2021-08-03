@@ -16,7 +16,7 @@ def fileParse():
            valid_lft forever preferred_lft forever
     2: ens3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
         link/ether 52:54:00:f2:2f:80 brd ff:ff:ff:ff:ff:ff
-        inet 11.231.21.11/23 brd 10.235.3.255 scope global ens3
+        inet xxx.xxx.xxx.xxx/23 brd 10.235.3.255 scope global ens3
            valid_lft forever preferred_lft forever
         inet6 fe80::5054:ff:fef2:2f80/64 scope link
            valid_lft forever preferred_lft forever
@@ -29,7 +29,7 @@ def fileParse():
            valid_lft forever preferred_lft forever
     2: ens3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
         link/ether 52:54:00:b1:1e:1e brd ff:ff:ff:ff:ff:ff
-        inet 11.232.41.33/24 brd 10.235.4.255 scope global ens3
+        inet xxx.xxx.xxx.xxx/24 brd 10.235.4.255 scope global ens3
            valid_lft forever preferred_lft forever
         inet6 fe80::5054:ff:feb1:1e1e/64 scope link
            valid_lft forever preferred_lft forever
