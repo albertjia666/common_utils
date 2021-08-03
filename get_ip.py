@@ -54,6 +54,11 @@ def fileParse():
         start = number[i]
         end = number[i + 1]
         segment = line_cache[start-1:end - 1]
+        
+        # fp_w = open('out' + str(i) + '.txt', 'w')  # 将截取出的内容保存在输出文件中
+        # for key in destLines:
+        #     fp_w.write(key)
+        # fp_w.close()
 
         print(segment[0].split("|")[0])
         for line in segment:
